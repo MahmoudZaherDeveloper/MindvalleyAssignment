@@ -93,7 +93,7 @@ class Loader private constructor() {
 
         init {
             job.invokeOnCompletion {
-                Log.d("Loader", "Job completed with $it error")
+                Log.d("Loader", "Job completed with $it image_holder")
                 notifyCompletion()
             }
         }

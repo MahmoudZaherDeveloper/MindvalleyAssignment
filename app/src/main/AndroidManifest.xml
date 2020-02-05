@@ -13,14 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.mindvalley.assignment.MainActivity">
+        <activity android:name="com.mindvalley.assignment.ui.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.mindvalley.assignment.DetailActivity" />
+        <activity android:name="com.mindvalley.assignment.ui.activities.DetailActivity" />
     </application>
 
 </manifest>

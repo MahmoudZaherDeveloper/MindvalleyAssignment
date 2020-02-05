@@ -69,10 +69,10 @@ MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/mahmoudzaher/.gradl
 		ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:14:9-40
-activity#com.mindvalley.assignment.MainActivity
+activity#com.mindvalley.assignment.ui.activities.MainActivity
 ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:16:19-72
+		ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:16:19-86
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
@@ -83,10 +83,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
 		ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:20:27-74
-activity#com.mindvalley.assignment.DetailActivity
-ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:23:9-77
+activity#com.mindvalley.assignment.ui.activities.DetailActivity
+ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:23:9-91
 	android:name
-		ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:23:19-74
+		ADDED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml:23:19-88
 uses-sdk
 INJECTED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/AndroidManifest.xml
