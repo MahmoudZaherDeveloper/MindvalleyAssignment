@@ -1,4 +1,4 @@
-package com.mindvalley.urlloader
+package com.mindvalley.urlloader.utils
 
 import android.util.Log
 import java.io.ByteArrayOutputStream

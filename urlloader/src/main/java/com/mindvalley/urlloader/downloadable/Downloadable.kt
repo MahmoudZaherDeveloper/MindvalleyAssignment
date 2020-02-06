@@ -1,4 +1,7 @@
-package com.mindvalley.urlloader
+package com.mindvalley.urlloader.downloadable
+
+import com.mindvalley.urlloader.Loader
+import com.mindvalley.urlloader.utils.DownloadableContent
 
 abstract class Downloadable<T>(var url: String) {
     var cancelled = false

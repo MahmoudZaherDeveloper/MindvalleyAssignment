@@ -8,7 +8,7 @@ import android.support.v4.view.ViewCompat
 import android.support.v7.app.AppCompatActivity
 import com.mindvalley.assignment.R
 import com.mindvalley.assignment.data.model.ItemPin
-import com.mindvalley.urlloader.DownloadableBitmap
+import com.mindvalley.urlloader.downloadable.DownloadableBitmap
 import kotlinx.android.synthetic.main.activity_detail.*
 
 class DetailActivity : AppCompatActivity() {

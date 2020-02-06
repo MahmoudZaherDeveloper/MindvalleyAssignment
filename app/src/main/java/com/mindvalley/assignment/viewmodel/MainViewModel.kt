@@ -9,7 +9,7 @@ import app.mindvalley.assignment.utli.SWIPE_DOWN
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.mindvalley.assignment.data.model.ItemPin
-import com.mindvalley.urlloader.DownloadableString
+import com.mindvalley.urlloader.downloadable.DownloadableString
 
 class MainViewModel : ViewModel() {
     val isRefreshing = MutableLiveData<Boolean>()

@@ -1,6 +1,8 @@
 package com.mindvalley.urlloader
 
 import android.graphics.Bitmap
+import com.mindvalley.urlloader.downloadable.DownloadableBitmap
+import com.mindvalley.urlloader.downloadable.DownloadableString
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert
 import org.junit.Test

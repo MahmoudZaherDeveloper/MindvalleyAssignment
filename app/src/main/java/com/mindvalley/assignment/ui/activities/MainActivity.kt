@@ -21,12 +21,12 @@ import android.view.*
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import com.mindvalley.assignment.viewmodel.MainViewModel
 import com.mindvalley.assignment.R
 import com.mindvalley.assignment.data.model.ItemPin
-import com.mindvalley.urlloader.Downloadable
-import com.mindvalley.urlloader.DownloadableBitmap
+import com.mindvalley.assignment.viewmodel.MainViewModel
 import com.mindvalley.urlloader.Loader
+import com.mindvalley.urlloader.downloadable.Downloadable
+import com.mindvalley.urlloader.downloadable.DownloadableBitmap
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.cache_config_layout.view.*
 import kotlinx.android.synthetic.main.item_layout.view.*

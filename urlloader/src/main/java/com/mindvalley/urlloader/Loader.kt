@@ -2,6 +2,9 @@ package com.mindvalley.urlloader
 
 import android.util.Log
 import android.util.LruCache
+import com.mindvalley.urlloader.downloadable.Downloadable
+import com.mindvalley.urlloader.utils.DownloadableContent
+import com.mindvalley.urlloader.utils.readBytesWithCheck
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import java.net.URL
