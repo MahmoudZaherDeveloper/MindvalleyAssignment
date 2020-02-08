@@ -24,7 +24,7 @@ class DownloadableTests {
     fun checkLoadBitmap() {
         runBlocking {
             val meh = suspendCoroutine<Pair<Bitmap?, Throwable?>> { cont ->
-                DownloadableBitmap("http://placehold.it/240x240&text=test").load { s, throwable ->
+                DownloadableBitmap("https://via.placeholder.com/150").load { s, throwable ->
                     cont.resume(Pair(s, throwable))
                 }
             }

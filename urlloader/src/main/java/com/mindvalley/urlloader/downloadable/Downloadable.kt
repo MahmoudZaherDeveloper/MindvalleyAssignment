@@ -4,6 +4,7 @@ import com.mindvalley.urlloader.Loader
 import com.mindvalley.urlloader.utils.DownloadableContent
 
 abstract class Downloadable<T>(var url: String) {
+
     var cancelled = false
     private var used = false
     private lateinit var onLoad: (T?, throwable: Throwable?) -> Unit

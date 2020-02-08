@@ -1,6 +1,6 @@
 ### Library functionality relies on Downloadable class.
 
-DownloadableBitmap and DownloadableString has been provided as convenience implementations, but the user can implement any kind of dowload by extending the Downloadable class as fallows:
+DownloadableBitmap and DownloadableString has been provided as convenience implementations, but the user can implement any kind of download by extending the Downloadable class as fallows:
 
 ```kotlin
 //Using WeirdFileFormat with illustrative purpose
@@ -22,21 +22,21 @@ if(error==null){
 }
 ```
 
-### Downloads are choriographed within Loader class.
+### Downloads are choreographed within Loader class.
 
 This is where magic happens. For example, images and JSON text are cached efficiently in memory.
-The cache has a configurable max capacity, it can be setted using:
+The cache has a configurable max capacity, it can be set using:
 
 ```kotlin
 Loader.resizeCache(10 * 1024 * 1024)//Set cache size to 10MB
 ```
 
-You can request the same image from multiple places in parallel, the Loader will take care of downloading the resource only once, and notify all Downloadables waiting for requested resource as soon as it finishes downloading the contents of the url.
+You can request the same image from multiple places in parallel, the Loader will take care of downloading the resource only once, and notify all Downloadable waiting for requested resource as soon as it finishes downloading the contents of the url.
 
-You can cancell any Downloadable and it will not affect other downloadables waiting for the same resource. If there are no other Downloadables waiting for the resource, the download task will be cancelled to free valuable resources. This is usefull to avoid downloading resources that are no longer needed.
+You can cancel any Downloadable and it will not affect other downloadable waiting for the same resource. If there are no other Downloadable waiting for the resource, the download task will be cancelled to free valuable resources. This is useful to avoid downloading resources that are no longer needed.
 
 ```kotlin
 downloadable.cancel()
 ```
 
-You can download infinite resources using this lib, only 10 download tasks are allowed to run at the same time(may have attached many Downloadables each), the downloaded resources are cached in memory, and old unfrequently used items are evicted when the app needs more memory.
+You can download infinite resources using this lib, only 10 download tasks are allowed to run at the same time(may have attached many Downloadable each), the downloaded resources are cached in memory, and old unfrequently used items are evicted when the app needs more memory.

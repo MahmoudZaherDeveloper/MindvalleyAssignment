@@ -28,5 +28,6 @@ fun InputStream.copyToWithCheck(checker: () -> Boolean, out: OutputStream, buffe
         bytesCopied += bytes
         bytes = read(buffer)
     }
+
     return bytesCopied
 }

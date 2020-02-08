@@ -4,6 +4,10 @@
         "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/color/switch_thumb_material_dark.xml"
     },
     {
+        "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ae9ce62cd7acab8be0da6d8f2bf89230/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
@@ -416,6 +420,10 @@
         "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/drawable-v23/abc_control_background_material.xml"
     },
     {
+        "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -450,6 +458,10 @@
     {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat",
@@ -710,6 +722,10 @@
     {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",
         "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility.png.flat",
@@ -1258,6 +1274,10 @@
     {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",

@@ -186,6 +186,7 @@ class Loader private constructor() {
         }
 
         fun cacheSize(): Int {
+
             return instance.getItemsCacheSize()
         }
     }
