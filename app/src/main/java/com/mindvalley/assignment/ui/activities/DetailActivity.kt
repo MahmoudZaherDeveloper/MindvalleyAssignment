@@ -21,10 +21,8 @@ class DetailActivity : AppCompatActivity() {
         val pin = intent.extras.getSerializable("pin") as ItemPin
 
         pict.setBackgroundColor(Color.parseColor(pin.color))
-        url.text = pin.url
         created.text = pin.createdAt
         user.text = pin.userName
-        dimentions.text = "${pin.width}x${pin.height}"
 
         ViewCompat.setTransitionName(pict, getString(R.string.image_item_for_transition))
 

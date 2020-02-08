@@ -7,7 +7,7 @@
     android:orientation="horizontal">
 
     <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_weight="1">
@@ -16,9 +16,9 @@
             android:id="@+id/cacheSizeText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Cache size (MB)"
+            android:hint="@string/cache_size_mb"
             android:inputType="number"
-            android:text="10" />
+            android:text="15" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.FloatingActionButton
@@ -26,8 +26,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorPrimary"
         android:src="@drawable/ic_check_black_24dp"
         app:fabSize="mini" />
 </LinearLayout>

@@ -777,11 +777,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
 drawable ic_check_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable ic_memory_black_24dp
-drawable ic_shuffle_black_24dp
+drawable ic_save_black_24dp
 drawable image_holder
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -821,7 +821,6 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_set_cache_size
 id action_text
 id actions
 id activity_chooser_view_content
@@ -864,7 +863,6 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dimensions
-id dimentions
 id direct
 id disableHome
 id edit_query
@@ -994,7 +992,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id uniform
 id up
-id url
 id useLogo
 id user
 id view_offset_helper
@@ -1076,7 +1073,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu app_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -1112,16 +1108,21 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string cache_size_mb
 string character_counter_pattern
+string date
+string dimensions
 string image_item_for_transition
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string placeholder
 string search_menu_title
 string status_bar_notification_info_overflow
 string text_item_for_transition
+string uploaded_by
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

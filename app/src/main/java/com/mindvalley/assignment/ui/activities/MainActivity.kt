@@ -1,7 +1,6 @@
 package com.mindvalley.assignment.ui.activities
 
 import android.animation.Animator
-import android.annotation.SuppressLint
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.content.Intent
@@ -17,7 +16,9 @@ import android.support.v7.util.DiffUtil
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.util.Log
-import android.view.*
+import android.view.View
+import android.view.ViewAnimationUtils
+import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -55,11 +56,7 @@ class MainActivity : AppCompatActivity() {
             model.doRefresh()
         }
 
-        fab.setOnClickListener {
-            showCoolAnimation()
-            (main_r_v.adapter as MainPinRecyclerViewAdapter).sendList(model.pinList.value!!.shuffled())
-            Snackbar.make(mainView, "Pins shuffled!", Snackbar.LENGTH_SHORT).show()
-        }
+        fab.setOnClickListener { cashData() }
 
         //attach observers
         model.isRefreshing.observe(this, Observer {
@@ -76,7 +73,27 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    private fun showCoolAnimation() {
+    private fun cashData() {
+        val mBottomSheetDialog = BottomSheetDialog(this)
+        val sheetView = layoutInflater.inflate(R.layout.cache_config_layout, null)
+        sheetView.cacheSizeText.setText((Loader.cacheSize() / 1024 / 1024).toString())
+        sheetView.cacheSizeButton.setOnClickListener {
+            try {
+                Loader.resizeCache(sheetView.cacheSizeText.text.toString().toInt() * 1024 * 1024)
+            } catch (ex: NumberFormatException) {
+                Loader.resizeCache(10 * 1024 * 1024)//10MB
+                Toast.makeText(this, "Invalid value, defaulting to 10MB", Toast.LENGTH_LONG).show()
+            } catch (e: Exception) {
+                Loader.resizeCache(10 * 1024 * 1024)//10MB
+                Toast.makeText(this, "Error, defaulting to 10MB", Toast.LENGTH_LONG).show()
+            }
+            mBottomSheetDialog.dismiss()
+        }
+        mBottomSheetDialog.setContentView(sheetView)
+        mBottomSheetDialog.show()
+    }
+
+    private fun showAnimation() {
         val centerX = (fab.left + fab.right) / 2
         val centerY = (fab.top + fab.bottom) / 2
 
@@ -195,6 +212,9 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+    private fun obtainViewModel(): MainViewModel {
+        return ViewModelProviders.of(this).get(MainViewModel::class.java)
+    }
 
     //Ugly fix for bug of lifecycle extensions https://issuetracker.google.com/issues/73644080
     //this bug is corrected on the last update.
@@ -214,40 +234,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.app_menu, menu)
-        return true
-    }
 
-    @SuppressLint("InflateParams")
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_set_cache_size -> {
-                val mBottomSheetDialog = BottomSheetDialog(this)
-
-                val sheetView = layoutInflater.inflate(R.layout.cache_config_layout, null)
-                sheetView.cacheSizeText.setText((Loader.cacheSize() / 1024 / 1024).toString())
-                sheetView.cacheSizeButton.setOnClickListener {
-                    try {
-                        Loader.resizeCache(sheetView.cacheSizeText.text.toString().toInt() * 1024 * 1024)
-                    } catch (ex: NumberFormatException) {
-                        Loader.resizeCache(10 * 1024 * 1024)//10MB
-                        Toast.makeText(this, "Invalid value, defaulting to 10MB", Toast.LENGTH_LONG).show()
-                    } catch (e: Exception) {
-                        Loader.resizeCache(10 * 1024 * 1024)//10MB
-                        Toast.makeText(this, "Error, defaulting to 10MB", Toast.LENGTH_LONG).show()
-                    }
-                    mBottomSheetDialog.dismiss()
-                }
-                mBottomSheetDialog.setContentView(sheetView)
-                mBottomSheetDialog.show()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
-
-    private fun obtainViewModel(): MainViewModel {
-        return ViewModelProviders.of(this).get(MainViewModel::class.java)
-    }
 }
