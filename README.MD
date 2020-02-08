@@ -1,11 +1,11 @@
 ### Mindvalley Assessment Test
 
 ### Task 
-create an image loading library that will be used to asynchronously download the images for the pins on the pinboard when they are needed Like PinterestApp.
+Creating an image loading library that will be used to asynchronously download the images for the pins on the pinboard when they are needed Like PinterestApp.
 
 # Requirement
 
-    1. I Use the following url for loading data: http://pastebin.com/raw/wgkJgazE
+    1. Use the following url for loading data: http://pastebin.com/raw/wgkJgazE
     2. Images and JSON should be cached efficiently (in-memory only, no need for caching to disk);
     3. The cache should have a configurable max capacity and should evict images not recently used;
     4. An image load may be cancelled;
