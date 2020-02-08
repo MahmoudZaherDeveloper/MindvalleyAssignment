@@ -28,7 +28,7 @@ class CustomDownloadable(url: String):Downloadable<WeirdFileFormat>(url){
    		return WeirdFileFormat.fromBytes(content)
 	}
 }
-
+```
 
 ## Contributing
 All pull requests are welcome, make sure to follow the contribution guidelines when you submit pull request.
