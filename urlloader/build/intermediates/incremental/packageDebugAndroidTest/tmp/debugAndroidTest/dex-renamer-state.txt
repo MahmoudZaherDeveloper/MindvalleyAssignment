@@ -1,0 +1,16 @@
+#Sat Feb 08 19:13:19 EET 2020
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/urlloader/build/intermediates/transforms/dexMerger/androidTest/debug/0
+renamed.0=classes.dex
+base.3=/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/urlloader/build/intermediates/transforms/dexMerger/androidTest/debug/3
+base.2=/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/urlloader/build/intermediates/transforms/dexMerger/androidTest/debug/4
+base.1=/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/urlloader/build/intermediates/transforms/dexMerger/androidTest/debug/1
+base.0=/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/urlloader/build/intermediates/transforms/dexMerger/androidTest/debug/2
+path.4=classes.dex
