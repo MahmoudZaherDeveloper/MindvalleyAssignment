@@ -57,8 +57,10 @@ class CustomDownloadable(url: String):Downloadable<WeirdFileFormat>(url){
 }
 ```
 * Screenshots  
-<img src="screenshots/Screenshot_1581328799.png" width="250"/> <img src="screenshots/Screenshot_1581328783.png" width="250"/>
 <img src="screenshots/Screenshot_1581328762.png" width="250"/>
+<img src="screenshots/Screenshot_1581328783.png" width="250"/>
+<img src="screenshots/Screenshot_1581328799.png" width="250"/> 
+
 
 ## Authors
 
