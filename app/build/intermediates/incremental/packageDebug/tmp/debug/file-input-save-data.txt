@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Feb 04 14:50:35 EET 2020
+#Mon Feb 10 11:58:54 EET 2020
 2.base=/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex
 2.baseType=DIRECTORY

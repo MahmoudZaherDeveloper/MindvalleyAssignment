@@ -4,7 +4,7 @@
             "outputFile": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/values-v17/values-v17.xml",
+                    "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e43f0af7c4c54a70935b1ba1bdafa3b6/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

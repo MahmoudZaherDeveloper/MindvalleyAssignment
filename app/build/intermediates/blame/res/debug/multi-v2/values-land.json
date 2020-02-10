@@ -4,17 +4,7 @@
             "outputFile": "/Users/mahmoudzaher/Desktop/mindvalley/MindvalleyAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b25946f92c3ba9b4ac7f629cc2c3df3/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ae9ce62cd7acab8be0da6d8f2bf89230/res/values-land/values-land.xml",
+                    "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4658a739ffbba521ae3757adcc54100a/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/mahmoudzaher/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e43f0af7c4c54a70935b1ba1bdafa3b6/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]
