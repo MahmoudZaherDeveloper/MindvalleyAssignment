@@ -1,4 +1,5 @@
-### Mindvalley Assessment Test
+### Mindvalley Assessment Test (Url Loader)
+Url Loader is one of android libs that helping to download images and JSON in addition to cached them efficiently.	 
 
 ### Task 
 Creating an image loading library that will be used to asynchronously download the images for the pins on the pinboard when they are needed Like PinterestApp.
@@ -17,10 +18,36 @@ Creating an image loading library that will be used to asynchronously download t
     10. Think that the list of item returned by the API can reach 100 items or even more. At a time, you should only load 10 items, and load more from the API when the user reach the end of the list;
     11. Usage of Material Design UI elements (Ripple, Fab button, Animations) is an advantage;
     12. Adding "pull to refresh" is an advantage.
-    
-    
-### Library functionality relies on Downloadable class.
+  
+  
+## Getting Started
 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+
+
+### Installing
+
+A step by step series of examples that tell you have to get a development env running
+
+Say what the step will be
+
+```
+allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```
+dependencies {
+	        implementation 'com.github.MahmoudZaherDeveloper:MindvalleyAssignment:1.0'
+	}
+```
+    
+### And coding style tests
+### Library functionality relies on Downloadable class.
 ```kotlin
 //Using WeirdFileFormat with illustrative purpose
 class CustomDownloadable(url: String):Downloadable<WeirdFileFormat>(url){
@@ -29,6 +56,14 @@ class CustomDownloadable(url: String):Downloadable<WeirdFileFormat>(url){
 	}
 }
 ```
+* Screenshots  
+<img src="screenshots/Screenshot_1581328799.png" width="250"/> <img src="screenshots/Screenshot_1581328783.png" width="250"/>
+<img src="screenshots/Screenshot_1581328762.png" width="250"/>
+
+## Authors
+
+* **Mahmoud Zaher** 
+
 
 ## Contributing
 All pull requests are welcome, make sure to follow the contribution guidelines when you submit pull request.
